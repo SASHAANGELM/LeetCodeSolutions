@@ -1,0 +1,15 @@
+{
+  "name": "leetcodesolutions",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.4",
+    "typescript": "^5.4.3",
+    "vitest": "^1.4.0"
+  }
+}
