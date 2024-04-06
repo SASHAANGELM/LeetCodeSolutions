@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
 import { exist } from '.';
 
-describe('3. Longest Substring Without Repeating Characters', () => {
+describe('79. Word Search', () => {
   describe('exist', () => {
     test('Test case #1', () => {
       const result = exist(

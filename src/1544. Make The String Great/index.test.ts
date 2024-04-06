@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
 import { isTwoLetterGood, makeGood } from '.';
 
-describe('3. Longest Substring Without Repeating Characters', () => {
+describe('1544. Make The String Great', () => {
   describe('makeGood', () => {
     test('Test case #1', () => {
       expect(makeGood('leEeetcode')).toBe('leetcode');

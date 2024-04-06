@@ -14,8 +14,8 @@ export function lengthOfLongestSubstring(s: string): number {
       }
     }
     if (arr.length > max) {
-      max = arr.length
+      max = arr.length;
     }
   }
   return max;
-};
+}

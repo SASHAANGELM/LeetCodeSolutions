@@ -1,34 +1,32 @@
-## 79. Word Search
+## 3. Longest Substring Without Repeating Characters
+
 - Medium
 - Topics
 - Companies
 
-Given an `m x n` grid of characters `board` and a string `word`, return `true` *if* `word` *exists in the grid*.
-
-The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
-
- 
+Given a string `s`, find the length of the **longest** substring without repeating characters.
 
 #### Example 1:
-- Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
-- Output: true
+
+- Input: s = "abcabcbb"
+- Output: 3
+- Explanation: The answer is "abc", with the length of 3.
 
 #### Example 2:
-- Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "SEE"
-- Output: true
+
+- Input: s = "bbbbb"
+- Output: 1
+- Explanation: The answer is "b", with the length of 1.
 
 #### Example 3:
-- Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCB"
-- Output: false
- 
+
+- Input: s = "pwwkew"
+- Output: 3
+- Explanation: The answer is "wke", with the length of 3.
+  Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
 #### Constraints:
 
-`m == board.length`
-`n = board[i].length`
-`1 <= m, n <= 6`
-`1 <= word.length <= 15`
-`board` and `word` consists of only lowercase and uppercase English letters.
- 
+`0 <= s.length <= 5 * 104`
 
-**Follow up**: Could you use search pruning to make your solution faster with a larger `board`?
+`s` consists of English letters, digits, symbols and spaces.
